@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <title>Mushukcha O‘yini</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <h1>Mushukcha O‘yini</h1>
+
+  <div id="game">
+    <div id="cat"></div>
+    <div id="coin"></div>
+  </div>
+
+  <p>Hisob: <span id="score">0</span></p>
+  <div id="controls">
+    <button onclick="move('up')">⬆️</button>
+    <div>
+      <button onclick="move('left')">⬅️</button>
+      <button onclick="move('down')">⬇️</button>
+      <button onclick="move('right')">➡️</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
